@@ -1,0 +1,103 @@
+# Virtual Envirionment
+
+# An Envirionment which is same as the system interpreter but is isolated from the other python envirionments on the system
+# virtenv
+
+
+# PIP FREEZE COMMAND
+
+# to seeing all pip installed library of python
+
+
+# LAMBDA FUNCTION
+
+# def square(n):
+#     return n*n
+
+
+# print(square(5))
+
+
+
+
+# OR USE LAMBDA
+
+# square = lambda x: x*x
+# print(square(5))
+
+
+
+
+
+# JOIN METHOD COMMAND
+
+# creates a string from iterable objects
+
+# a = ["Jerry", "Mohan", "Mia"]
+
+# final = "::".join(a)
+# print(final)
+
+
+
+
+
+
+
+# FORMAT
+
+# Format values inside the string into desired output
+
+# a = "{} is a good {}".format("Jerry", "Boy")
+# print(a)
+
+
+
+
+
+
+# MAP, FILTER AND REDUCE
+
+# MAP applies a function to all the items in an input_list
+
+# from functools import reduce
+
+# l = [1, 2, 3, 4, 5]
+
+# square = lambda x: x*x
+
+# sqlist = map(square, l)
+# print(list(sqlist))
+
+
+
+# FILTER
+# FILTER does what it is named
+
+
+# def even(n):
+#     if (n%2 == 0):
+#         return True
+#     return False
+
+# onlyEven = filter(even, l)
+# print(list(onlyEven))
+
+
+
+
+
+# REDUCE 
+#
+
+
+
+# def sum(a, b):
+#     return a + b
+# mul = lambda x,y:x*y
+# print(reduce(sum, l)) 
+# print(reduce(mul, l))
+# 1+2 = 3 them 3 + 3 = 6 then 6+4 = 10 then 10+5 = 15 will be sum
+
+
+

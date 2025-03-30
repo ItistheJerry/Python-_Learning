@@ -1,0 +1,61 @@
+New Features in Python
+
+
+Walrus operator:-
+Allows us to assign values to variables as part of an expression, This operator, names for its resemblance to the eyes and tusks of a walrus, is officially called the assignment expression.
+
+ 
+
+ Type Defenation:-
+ Type Hints are added using the Colon (:) syntax for variables and the  -> Syntax for function return Types.
+
+# Variable type
+ age: int = 25
+
+ # Function type
+ def greeting(name: str) -> str:
+ return f"Hello, {name}!"
+
+
+
+ Advanced Hints:
+
+ # Pythons typing module provides more advanced type hints, such as List, Tuples, Dict, and Union
+
+# We can import List, Tuples, Dict types from the typing module like this:
+
+# from typing import List, Tuple, Dict, Union
+
+# # List Of Integers:
+# numbers: List[int] = [1, 2, 3, 4, 5]
+
+# # Tuple of a string and an Integer:
+# Person: Tuple[str, int] = ("Alice", 30)
+
+# # Dictionary with string keys and integer values:
+# scores: Dict[str, int] = {"Alice": 90, "Bob": 85}
+
+# # Union type for variables that can hold multiple types:
+# identifier1: Union[int, str] = "ID123"
+# identifier2 = 1234 # Also Valid
+
+# print(numbers, Person, scores, identifier1)
+
+
+
+
+
+ # Match Case:
+
+# Introduced in Python 3.10 introduced the match statement, which is similar to the switch statement found in other programming languages.
+
+# The Basic syntax of the match statement involves matching a variable against several cases using the case keyword.
+
+
+
+
+
+Exception Handeling:
+
+
+Try with Else and With Finally
